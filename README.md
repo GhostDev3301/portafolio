@@ -1,2 +1,2 @@
 # portafolio
-mi información de contacto, hablidades y proyectos realizados
+mi información de contacto, habilidades y proyectos realizados
