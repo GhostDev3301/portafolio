@@ -1,5 +1,28 @@
 *{
-    box-sizing: border-box;
-
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+    overflow-x: hidden;
 }
 
+body, html {
+	height: 100vh;
+	font-family: 'DM sans';
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card{
+    width: 350px;
+    margin: auto;
+    padding: auto;
+}
+
+
+.carousel{
+    width: 70%;
+    margin: auto;
+}
