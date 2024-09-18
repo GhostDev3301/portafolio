@@ -3,6 +3,7 @@
 	padding: 0; 
 	box-sizing: border-box;
     overflow-x: hidden;
+    
 }
 
 body, html {
@@ -10,8 +11,13 @@ body, html {
 	font-family: 'DM sans';
 }
 
-.container_info{
-    text-align: center;
+.container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.img-fluid{
+    border-radius: 40px;
 }
 
 .card-img-top{
@@ -40,6 +46,6 @@ body, html {
     overflow-y: hidden;
 }
 
-container .text-center{
-    overflow: hidden;
+.footer{
+    text-align: center;
 }
