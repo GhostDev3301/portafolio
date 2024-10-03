@@ -18,6 +18,7 @@ body, html {
 
 .img-fluid{
     border-radius: 40px;
+    
 }
 
 .card-img-top{
@@ -37,13 +38,14 @@ body, html {
     text-decoration: none;
 }
 
-.carousel{
-    width: 100%;
-    margin: auto;
+.navbar-expand-lg{
+    background-color: rgb(103, 194, 255);
 }
 
-.col{
-    overflow-y: hidden;
+.carousel{
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 .footer{
