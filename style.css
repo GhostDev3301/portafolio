@@ -50,6 +50,13 @@ body, html {
     text-decoration: none;
 }
 
+.navbar {
+    background-color: transparent !important;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
 .navbar .nav-link{
     color: white !important; /* Cambia el color del texto */
   }
