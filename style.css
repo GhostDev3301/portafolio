@@ -50,10 +50,26 @@ body, html {
     text-decoration: none;
 }
 
-.navbar-expand-lg{
-    background-color: rgb(103, 194, 255);
+.navbar .nav-link{
+    color: white !important; /* Cambia el color del texto */
+  }
+  
+.navbar .nav-link:hover {
+    color: #2600ff !important; /* Cambia el color al pasar el mouse */
 }
 
+.navbar .navbar-brand{
+    color: white !important;
+}
+.navbar .nav-brand:hover {
+    color: #2600ff !important; /* Cambia el color al pasar el mouse */
+}
+
+
+.navbar-nav{
+    margin: auto;
+
+}
 
 .carousel{
     width: 100%;
