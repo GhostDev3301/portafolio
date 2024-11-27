@@ -1,9 +1,7 @@
 # portafolio Adrian Bonilla
 mi información de contacto, habilidades y proyectos realizados
 
-## Este archivo ha sido modificado el 02/10/2024
-
-###Guia para clonar este repositorio
+## Guia para clonar este repositorio
 
 - presione el boton Code para abrir las opciones
 - copiar la dirección HTTPS
