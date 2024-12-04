@@ -65,7 +65,9 @@ body, html {
   }
   
 .navbar .nav-link:hover {
-    color: #2600ff !important; /* Cambia el color al pasar el mouse */
+    color: #ffffff !important; /* Cambia el color al pasar el mouse */
+    background-color: #2600ff;
+    transform-style: preserve-3d;
 }
 
 .navbar .navbar-brand{
@@ -75,6 +77,11 @@ body, html {
     color: #2600ff !important; /* Cambia el color al pasar el mouse */
 }
 
+.navbar .nav-item{
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+    font-size: 20px;
+}
 
 .navbar-nav{
     margin: auto;
@@ -90,3 +97,45 @@ body, html {
 .footer{
     text-align: center;
 }
+
+
+/* Barra lateral */
+.contact-sidebar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: transparent; /* Sin fondo */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    z-index: 1000;
+    overflow: hidden;
+  }
+  
+  /* Íconos dentro de la barra */
+  .contact-icons img {
+    width: 40px; /* Tamaño pequeño */
+    height: 40px;
+    object-fit: contain;
+    border-radius: 50%; /* Opcional: para bordes redondos */
+    transition: transform 0.3s ease; /* Animación al pasar el mouse */
+    overflow: hidden;
+  }
+  
+  /* Enlace de íconos */
+  .icon-link {
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+  }
+  
+  /* Efecto hover */
+  .contact-icons img:hover {
+    transform: scale(1.2); /* Aumenta un poco al pasar el mouse */
+    filter: brightness(1.2); /* Efecto de brillo */
+    overflow: hidden;
+  }
+  
