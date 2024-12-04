@@ -15,6 +15,7 @@ body, html {
 
 .inicio h1{
     overflow: hidden;
+    font-size: 5rem;
 }
 
 .sobre-mi h1{
@@ -55,6 +56,8 @@ body, html {
     position: fixed;
     width: 100%;
     z-index: 10;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .navbar .nav-link{
